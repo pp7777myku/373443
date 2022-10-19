@@ -55,7 +55,7 @@ def get_info(url, headers):
 
 def output(csv_name):
 
-	df = pd.DataFrame()  # 初始化一个DataFrame对象
+	df = pd.DataFrame() 
 	df['Название фильма'] = movie_name
 	df['Ссылка'] = movie_url
 	df['Рейтинг'] = movie_star
